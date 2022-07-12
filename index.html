@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Checkpoint 2</title>
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-logo">
+            <img src="./images/mão.png" alt="Logo">
+            <h1>TerrorFlix</h1>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#videos">Movies</a></li>
+                <li><a href="#sobre">About us</a></li>
+                <li><a href="./pages/formulario.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="banner" id="Home">
+        <h1 class="animate__animated animate__bounce animate__delay-.05s">TerrorFlix</h1>
+        <p>A maior coletânea de filmes de terror que você já viu ou <span>talvez</span> verá!</p>
+        <button>Confira</button>
+    </section>
+    <section class="section-mother" id="filmes">
+        <h2 class="filmes"> Escolha o seu terror favorito: </h2>
+        <div class="image-container" id="videos">
+            <section class="image">
+                 <img class="card-filme" src="./images/cemiterio maldito.jpg" alt="">
+                <p> Cemitério Maldito </p>
+                <p> Sinopse: Uma família se muda para uma nova casa, localizada nos arredores de um antigo cemitério amaldiçoado... </p>
+                <a href="./pages/cemiterio.html" target="_blank"> <button> Ver Mais </button></a>
+            </section>
+            <section class="image"> <img class="card-filme" src="./images/It.jpg" alt="">
+                <p> It: A Coisa </p>
+                <p> Sinopse: Um grupo de crianças se une para investigar o misterioso desaparecimento de vários jovens em sua cidade... </p>
+                <a href="./pages/it.html" target="_blank"><button> Ver Mais </button></a>
+            </section>
+            <section class="image"> <img class="card-filme" src="./images/o exorcista.jpg" alt="">
+                <p> O Exorcista </p>
+                <p> Sinopse: Uma atriz vai gradativamente tomando consciência de que a sua filha de doze anos está tendo...</p>
+                <a href="./pages/exorcista.html" target="_blank"><button> Ver Mais </button></a>
+            </section>
+            <section class="image"> <img class="card-filme" src="./images/O retorno de chucky.jpg" alt="">
+                <p> O retorno de Chucky </p>
+                <p> Sinopse: Depois que um antigo boneco Chucky aparece em uma venda de quintal num bairro suburbano, uma cidade americana é jogada no caos...</p>
+                <a href="./pages/chucky.html" target="_blank"><button> Ver Mais </button></a>
+            </section>
+            <section class="image"> <img class="card-filme" src="./images/Orfa.jpg" alt="">
+                <p> A Órfã </p>
+                <p> Sinopse: Uma série de eventos alarmantes faz com que uma mulher acredite que algum mal esteja por trás do rosto angelical da filha...</p>
+                <a href="./pages/orfa.html" target="_blank"><button> Ver Mais </button></a>
+            </section>
+            <section class="image"> <img class="card-filme" src="./images/panico.jpg" alt="">
+                <p> Pânico </p>
+                <p> Sinopse: Vinte e cinco anos após uma série de crimes brutais chocar a tranquila Woodsboro, um novo assassino se apropria da máscara de Ghostface...</p>
+                <a href="./pages/panico.html" target="_blank"><button> Ver Mais </button></a>
+            </section>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <footer class="footer" id="sobre">
+        <div class="main-footer">
+            <div class="footer-div">
+                <h2>Eduardo Cotrim Yamaguchi</h2>
+                <p>Responsável por desenvolvimento do cabeçalho, o banner e o rodapé</p>
+                <div class="footer-img">
+                    <a href="https://github.com/Edu-Yamaguchi" target="_blank">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAiZJREFUSEvllt01BUEQhOtGgAgQASJABkSACBABIkAEiIAMEAEiQASIgPPt2d7T2+Zndz3cB/1yz92dmerqrqnemeYUsznhagrwlqQFSett0s+SPiU9jiExFHhF0omkHUmLGQDA7yRdSiKZYtSAATmXtF87KLy/lnTcViK5tQRMKa9cSUdi603Sbo59DhjQ+0JZhyZB+bdT4ClgyguoieddarLfHIj20q5ba3/ZuxHLngKmP3sOhIwfJCEw3pEY4uFAguckCTu0wHP+P7kzbqJOIjCHvAZmqw5kIOlm2XdYDOtO7RH4QtJh2GCMx4BGxuztsY7AlGnZIdBfK+MYYGuHP4tWLNkhHjiV5UHb1zGgtpZ+cx19dNXzwFghavbR68tIdFh/hD3ca9yt59VHrUv5tTVnq+USBXYm6XQI8BRhWTKpG5IETpX6Lz1moNyGknTn+VKmMsQ4YD0lohFxRqeZ2EMkz6z1MYV1StFf3vtLBsIdtnuIIJizJFYKlIwBNQIKUTQQX26kb8PdqkDpSaC5Ei7wAOY2OslF0TLZRLZ8bRD0l2S8EaS8O3VnfQIky3XtIjcWYcZYM3HBCJVi8pGtHZbSB+8Yk1Si16acQcASEEqMOhFYLUgyzmwEBeivb7CSMwEOOxvobKaklDoVkTFMUXfyw69miQDRG+s5gLk93h7pKVrJ3oIasDGDPQnwS69TQUsAYqbb10m2PUOBa/0d/f7/Af8A+YtyH9j17mQAAAAASUVORK5CYII="/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/eduardocotrimyamaguchi/" class="link" target="_blank">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAATlJREFUSEvt1rEuREEUxvHfPoCg0KhoVfQkPAFaiYQoKOl0eALR6ZBIlLyAEHqh0noEEg8gJ9mN2cllYzM3u5F7ujtn5vznfHNmzm0ZkLUGxDV04A1M4BZPdahSlfEj5hPYOi5Lw3PwNk4zyCtm6gYf4DCDfGKkbvACHjLIFdbqBkf8HexjEtfYQmRd1IbuOvWb3SxG24tf8P5ToDzjRdxlk4+SgovCiwJMLWKs4BhTme8Ge3jLN1ACvImzXyQK6FyefQlwyDnW42xOsJvLlH73I3W6/iM543Q8sp6uAxxyn7cDV20+XOOp3CWkvkA0ldSiqJazsSXcd8ZKgFcRoNSqqr84uCtgm96AQ4hG6q5q7OcBaYorJPzzdYrHPnpq/s522lq0vbz1PVf03Z7z/s0fSI/u+O0eWMZfIm1tH9MvfWIAAAAASUVORK5CYII="/>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-div">
+                <h2>Renata Armel</h2>
+                <p>Responsável por itens e páginas dos itens </p>
+                <div class="footer-img">
+                    <a href="https://github.com/ReArmel" target="_blank">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAiZJREFUSEvllt01BUEQhOtGgAgQASJABkSACBABIkAEiIAMEAEiQASIgPPt2d7T2+Zndz3cB/1yz92dmerqrqnemeYUsznhagrwlqQFSett0s+SPiU9jiExFHhF0omkHUmLGQDA7yRdSiKZYtSAATmXtF87KLy/lnTcViK5tQRMKa9cSUdi603Sbo59DhjQ+0JZhyZB+bdT4ClgyguoieddarLfHIj20q5ba3/ZuxHLngKmP3sOhIwfJCEw3pEY4uFAguckCTu0wHP+P7kzbqJOIjCHvAZmqw5kIOlm2XdYDOtO7RH4QtJh2GCMx4BGxuztsY7AlGnZIdBfK+MYYGuHP4tWLNkhHjiV5UHb1zGgtpZ+cx19dNXzwFghavbR68tIdFh/hD3ca9yt59VHrUv5tTVnq+USBXYm6XQI8BRhWTKpG5IETpX6Lz1moNyGknTn+VKmMsQ4YD0lohFxRqeZ2EMkz6z1MYV1StFf3vtLBsIdtnuIIJizJFYKlIwBNQIKUTQQX26kb8PdqkDpSaC5Ei7wAOY2OslF0TLZRLZ8bRD0l2S8EaS8O3VnfQIky3XtIjcWYcZYM3HBCJVi8pGtHZbSB+8Yk1Si16acQcASEEqMOhFYLUgyzmwEBeivb7CSMwEOOxvobKaklDoVkTFMUXfyw69miQDRG+s5gLk93h7pKVrJ3oIasDGDPQnwS69TQUsAYqbb10m2PUOBa/0d/f7/Af8A+YtyH9j17mQAAAAASUVORK5CYII="/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/renata-carmi-armel-042ba3206/" class="link" target="_blank">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAATlJREFUSEvt1rEuREEUxvHfPoCg0KhoVfQkPAFaiYQoKOl0eALR6ZBIlLyAEHqh0noEEg8gJ9mN2cllYzM3u5F7ujtn5vznfHNmzm0ZkLUGxDV04A1M4BZPdahSlfEj5hPYOi5Lw3PwNk4zyCtm6gYf4DCDfGKkbvACHjLIFdbqBkf8HexjEtfYQmRd1IbuOvWb3SxG24tf8P5ToDzjRdxlk4+SgovCiwJMLWKs4BhTme8Ge3jLN1ACvImzXyQK6FyefQlwyDnW42xOsJvLlH73I3W6/iM543Q8sp6uAxxyn7cDV20+XOOp3CWkvkA0ldSiqJazsSXcd8ZKgFcRoNSqqr84uCtgm96AQ4hG6q5q7OcBaYorJPzzdYrHPnpq/s522lq0vbz1PVf03Z7z/s0fSI/u+O0eWMZfIm1tH9MvfWIAAAAASUVORK5CYII="/>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-div">
+                <h2>Jhonatan Talinco</h2>
+                <p>Responsável por desenvolvimento do cabeçalho, o banner e o rodapé</p>
+                <div class="footer-img">
+                    <a href="#" target="_blank">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAiZJREFUSEvllt01BUEQhOtGgAgQASJABkSACBABIkAEiIAMEAEiQASIgPPt2d7T2+Zndz3cB/1yz92dmerqrqnemeYUsznhagrwlqQFSett0s+SPiU9jiExFHhF0omkHUmLGQDA7yRdSiKZYtSAATmXtF87KLy/lnTcViK5tQRMKa9cSUdi603Sbo59DhjQ+0JZhyZB+bdT4ClgyguoieddarLfHIj20q5ba3/ZuxHLngKmP3sOhIwfJCEw3pEY4uFAguckCTu0wHP+P7kzbqJOIjCHvAZmqw5kIOlm2XdYDOtO7RH4QtJh2GCMx4BGxuztsY7AlGnZIdBfK+MYYGuHP4tWLNkhHjiV5UHb1zGgtpZ+cx19dNXzwFghavbR68tIdFh/hD3ca9yt59VHrUv5tTVnq+USBXYm6XQI8BRhWTKpG5IETpX6Lz1moNyGknTn+VKmMsQ4YD0lohFxRqeZ2EMkz6z1MYV1StFf3vtLBsIdtnuIIJizJFYKlIwBNQIKUTQQX26kb8PdqkDpSaC5Ei7wAOY2OslF0TLZRLZ8bRD0l2S8EaS8O3VnfQIky3XtIjcWYcZYM3HBCJVi8pGtHZbSB+8Yk1Si16acQcASEEqMOhFYLUgyzmwEBeivb7CSMwEOOxvobKaklDoVkTFMUXfyw69miQDRG+s5gLk93h7pKVrJ3oIasDGDPQnwS69TQUsAYqbb10m2PUOBa/0d/f7/Af8A+YtyH9j17mQAAAAASUVORK5CYII="/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/eduardocotrimyamaguchi/" class="link" target="_blank">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAATlJREFUSEvt1rEuREEUxvHfPoCg0KhoVfQkPAFaiYQoKOl0eALR6ZBIlLyAEHqh0noEEg8gJ9mN2cllYzM3u5F7ujtn5vznfHNmzm0ZkLUGxDV04A1M4BZPdahSlfEj5hPYOi5Lw3PwNk4zyCtm6gYf4DCDfGKkbvACHjLIFdbqBkf8HexjEtfYQmRd1IbuOvWb3SxG24tf8P5ToDzjRdxlk4+SgovCiwJMLWKs4BhTme8Ge3jLN1ACvImzXyQK6FyefQlwyDnW42xOsJvLlH73I3W6/iM543Q8sp6uAxxyn7cDV20+XOOp3CWkvkA0ldSiqJazsSXcd8ZKgFcRoNSqqr84uCtgm96AQ4hG6q5q7OcBaYorJPzzdYrHPnpq/s522lq0vbz1PVf03Z7z/s0fSI/u+O0eWMZfIm1tH9MvfWIAAAAASUVORK5CYII="/>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <p class="footerParag">Checkpoint 2 desenvolvido em 2022</p>
+    </footer>
+</body>
+</html>
