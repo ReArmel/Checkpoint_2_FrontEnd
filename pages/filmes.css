@@ -112,5 +112,15 @@ header ul li a:hover{
     box-shadow: 2px 2px 5px 5px #1b1919;
     width: 600px;
  }
-
+@media (max-width: 400px){
+    .image-pages{
+        width: 350px;
+    }
+    .card-pages{
+        width: 350px;
+    }
+    .video-itens{
+        width: 350px;
+    }
+}
  

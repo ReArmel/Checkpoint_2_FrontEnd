@@ -294,3 +294,21 @@ header ul li a:hover{
     color: #efe2fc;
     text-decoration: none;
 }
+@media (max-width: 400px){
+    .main-header{
+        position: inherit;
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+    }
+    .main-header ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+    .main-footer{
+        display: flex;
+        flex-direction: column;
+    }
+}
